@@ -2,7 +2,7 @@
 <div align="center">
 <h1>UniComp</h1>
 
-<h3>Rethinking Video Compression Through Informational Uniquenes</h3>
+<h3>Rethinking Video Compression Through Informational Uniqueness</h3>
 </div>
 
 <p align="center">
