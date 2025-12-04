@@ -14,7 +14,7 @@
 
 <p align="center">
 <img width="95%" alt="image" src="docs/teaser.jpg">
-<img width="50%" alt="image" src="docs/framework.jpg">
+<img width="60%" alt="image" src="docs/framework.jpg">
 </p>
 
 ## 🔥🔥🔥 News
