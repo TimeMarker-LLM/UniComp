@@ -22,6 +22,14 @@
 - **2025-12-4:** Paper is available at [arXiv](http://arxiv.org/abs/2512.03575). Please refer to it for more details.
 - **2025-12-3:** We launched UniComp, a training-free video compression method.
 
+## Introduction
+>Distinct from attention-based compression methods, this paper presents an information uniqueness driven video compression framework, termed UniComp, which aims to maximize the information fidelity of video representations under constrained computational budgets. Starting from the information-theoretic perspective, we formulate the vision compression as an optimization problem that minimizes conditional entropy (reconstruction error) between retained and full tokens. To achieve this, we introduce the notion of information uniqueness to measure intrinsic redundancy among tokens to link with reconstruction error. Based on uniqueness, we design three modules-Frame Group Fusion, Token Allocation, and Spatial Dynamic Compression-that progressively perform semantic frame grouping, adaptive resource allocation, and fine-grained spatial compression. Extensive experiments demonstrate that UniComp consistently outperforms existing compression methods in preserving essential visual tokens under limited computational budgets, highlighting the pivotal role of information uniqueness in token compression efficacy.
+
+**Key Points:**
+- We propose **UniComp**, a **uniqueness-driven** compression framework that integrates **temporal fusion, global allocation, and spatial compression** under a unified principlekeep unique.
+- **High generalizability** with **few hyper-parameters** and **few implementation overhead**, enabling **plug-and-play deployment** across architectures.
+- **State-of-the-art** performance on multiple **long** video understanding benchmarks, consistently achieving superior compression efficiency and semantic fidelity under varying computational budgets.
+
 
 ## 🚀 Environment
 Our code is easy to use.
