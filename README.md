@@ -5,6 +5,13 @@
 <h3>Rethinking Video Compression Through Informational Uniqueness</h3>
 </div>
 
+
+<div align='center'>
+    <a href='http://arxiv.org/abs/2512.03575'><img src='https://img.shields.io/badge/UniComp-Paper-red'></a>
+</div>
+
+<p align="center"><i>🔥 The State-of-the-Art Method of video compression. 🔥</i></p>
+
 <p align="center">
 <img width="95%" alt="image" src="docs/teaser.jpg">
 <img width="50%" alt="image" src="docs/framework.jpg">
@@ -12,7 +19,7 @@
 
 ## 🔥🔥🔥 News
 
-<!-- - **2025-12-4:** Paper is available at [arXiv](https://arxiv.org/abs). -->
+- **2025-12-4:** Paper is available at [arXiv](http://arxiv.org/abs/2512.03575). Please refer to it for more details.
 - **2025-12-3:** We launched UniComp, a training-free video compression method.
 
 
@@ -20,7 +27,6 @@
 Our code is easy to use.
 1. [For demo] Install the [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT) environment.
 2. [For eval] Install the [Lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) environment.
-
 
 ## ⚒️ Quick Start
 Change the retained ratio, video and question setting in [demo.sh](demo.sh).
@@ -35,7 +41,7 @@ UniComp supports extremly convenient application to other VLMs with few lines:
 ```python
 # ... ViT+MLP to get image_feat
 
-# if possible, we recommend to use the KEYs of the last layer attnetion of ViT
+# if possible, we recommend to use the KEYs of the last layer attention of ViT
 # keys = ...
 
 retain_ratio = float(os.environ.get("RETAIN_RATIO", 0.5))
@@ -94,8 +100,13 @@ bash scripts/eval_ov-7b_unicomp.sh
 This work is built on [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT), [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval), [HoliTom](https://github.com/cokeshao/HoliTom), [FastVid](https://github.com/LunarShen/FastVID) and [VisionZip](https://github.com/dvlab-research/VisionZip). Thanks for their excellent open-source contributions.
 
 
-<!-- ## Citation
-If you find our work useful for your research, please consider citing the paper:
+## Citation
+If you find our work useful for your research, please consider giving a star and citing the paper:
 ```bibtex
-
-``` -->
+@article{yuan2025unicomp,
+  title={UniComp: Rethinking Video Compression Through Informational Uniqueness},
+  author={Yuan, Chao and Chen, Shimin and Lin, Minliang and Qiao, Limeng and Wan, Guanglu and Ma, Lin},
+  journal={arXiv preprint arXiv:2512.03575},
+  year={2025}
+}
+```
