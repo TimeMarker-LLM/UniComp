@@ -19,7 +19,7 @@
 
 ## 🔥🔥🔥 News
 
-- **2025-12-4:** 🔥🔥🔥***UniComp*** is accepted to CVPR'26!
+- **2026-2-21:** 🔥🔥🔥***UniComp*** is accepted to CVPR'26!!!
 - **2025-12-4:** Paper is available at [arXiv](http://arxiv.org/abs/2512.03575). Please refer to it for more details.
 - **2025-12-3:** We launched UniComp, a training-free video compression method.
 
